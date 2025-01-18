@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['"Teachers"', 'sans-serif'], // Set Teachers as the default sans-serif font
+      },
       keyframes: {
         // Fade Animations
         "fade-up": {
