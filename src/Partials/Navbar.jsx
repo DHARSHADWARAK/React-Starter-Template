@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Logo from "../assets/15.svg";
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // State for mobile menu
@@ -9,8 +9,10 @@ const Navbar = () => {
       <div className="text-xl mx-6 px-4 py-3 flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
-          <img href="/" src="logo.png" alt="AVCO Energy Logo" className="h-10 mr-2 cursor-pointer" />
-        </div>
+      <a href="/" className="cursor-pointer">
+        <img src={Logo} alt="AVCO Energy Logo" className="w-32" />
+      </a>
+    </div>
 
         {/* Hamburger Icon */}
         <button

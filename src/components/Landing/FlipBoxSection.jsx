@@ -8,8 +8,8 @@ const FlipBoxSection = () => {
       <div className="container mx-auto text-center">
         {/* Title */}
         <h2 className="text-3xl sm:text-4xl font-bold text-blue-900">
-          <span className="text-blue-900">BUSINESS</span>{" "}
-          <span className="text-red-500">MODELS</span>
+          <span className="text-[#00bf63]">BUSINESS</span>{" "}
+          <span className="text-blue-800">MODELS</span>
         </h2>
         <div className="flex justify-center mt-2 mb-10">
           <div className="w-16 h-1 bg-red-500"></div>

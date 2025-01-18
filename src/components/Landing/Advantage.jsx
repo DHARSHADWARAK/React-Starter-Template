@@ -26,7 +26,7 @@ const advantages = [
 
 const Advantage = () => {
   return (
-<section className="relative bg-gradient-to-br from-green-400 via-lime-400 to-yellow-400 py-16">
+<section className="relative bg-gradient-to-br from-green-400 via-lime-400 to-yellow-400 py-16 pb-20">
 <div className="container flex flex-col md:flex-row items-center justify-between mx-auto px-6 lg:flex lg:items-center lg:gap-16">
         {/* Map Section */}
         <div className="relative w-full lg:w-1/4 ">
@@ -38,8 +38,8 @@ const Advantage = () => {
         {/* Advantage Details */}
         <div className="mt-10 lg:mt-0 lg:w-1/2 text-left animate-slide-right">
           <h2 className="text-3xl sm:text-4xl font-bold text-blue-900">
-            <span className="text-blue-900">AVCO</span>{" "}
-            <span className="text-red-500">ADVANTAGE</span>
+            <span className="text-[#00bf63]">AVCO</span>{" "}
+            <span className="text-blue-900">ADVANTAGE</span>
           </h2>
           <div className="w-16 h-1 bg-red-500 my-4"></div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

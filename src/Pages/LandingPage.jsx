@@ -18,7 +18,7 @@ const LandingPage = () => {
         <Services/>
         <FlipBoxSection/>
         <Advantage/>
-        <Clients/>
+        {/* <Clients/> */}
         <Footer/>
     </>
   )

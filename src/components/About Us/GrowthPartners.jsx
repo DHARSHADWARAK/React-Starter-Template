@@ -15,11 +15,11 @@ const GrowthPartners = () => {
   ];
 
   return (
-    <section className="bg-gray-100 py-16 ">
+    <section className="bg-gray-100 py-16 pb-32">
       <div className="container mx-auto text-center">
         {/* Title */}
-        <h2 className="text-3xl sm:text-4xl font-bold text-blue-900">
-        GROWTH <span className="text-red-500">PARTNERS</span>
+        <h2 className="text-3xl sm:text-4xl font-bold text-[#00bf63]">
+        GROWTH <span className="text-blue-900">PARTNERS</span>
         </h2>
         <div className="w-16 h-1 bg-red-500 mx-auto my-4"></div>
 

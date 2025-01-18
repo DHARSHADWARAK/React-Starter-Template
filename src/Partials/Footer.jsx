@@ -1,8 +1,8 @@
 import React from "react";
-
+import Logo from "../assets/15.svg"
 const Footer = () => {
   return (
-    <footer>
+    <footer className="border-8 border-green-400 bg-gray-900 text-white">
       {/* Call-to-Action Banner */}
       <div className="absolute ml-[25vw] -mt-[28vw] md:-mt-[5vw] bg-gradient-to-r from-teal-400 to-lime-300 py-8 w-1/2 justify-center text-center">
         <h2 className="text-2xl sm:text-3xl font-semibold text-white mb-4 animate-fade-down">
@@ -14,15 +14,13 @@ const Footer = () => {
       </div>
 
       {/* Main Footer */}
-      <div className="bg-[#00bf63] text-white pt-24 pb-12">
+      <div className="bg-gray-100 text-[#00bf63] pt-32   pb-12">
         <div className="mx-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo & Social Links */}
           <div>
-            <img
-              src="src/assets/logo.png" // Replace with the actual logo path
-              alt="Avco Energy"
-              className="h-12 mb-6"
-            />
+               <a href="/" className="cursor-pointer">
+                   <img src={Logo} alt="AVCO Energy Logo" className="w-52 " />
+                 </a>
             <div className="flex space-x-4">
               {/* Replace icons with actual paths or FontAwesome/React-Icons */}
               <a href="#" className="hover:text-gray-300">
@@ -109,7 +107,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Footer Description */}
-      <div className="bg-white text-blue-900 py-8">
+      {/* <div className="bg-white text-blue-900 py-8">
         <div className="container mx-auto flex flex-col lg:flex-row items-center lg:justify-between text-center lg:text-left">
           <p className="text-sm leading-relaxed mb-4 lg:mb-0 p-6">
             We are committed to helping organizations achieve the lowest landed costs of electricity
@@ -121,7 +119,7 @@ const Footer = () => {
             MAKING SOLAR <br /> AFFORDABLE AND ACCESSIBLE
           </div>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };
