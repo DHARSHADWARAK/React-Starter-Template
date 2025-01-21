@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../../assets/rtopbg.jpg"; // Replace with your background image path
+import bgImage from "../../assets/rsbg.jpeg"; // Replace with your background image path
 
 const Hero = () => {
     const scrollToNextSection = () => {
@@ -14,18 +14,14 @@ const Hero = () => {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-yellow-400 via-lime-400 to-green-400 opacity-50"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-green-400  to-white opacity-50"></div>
 
       {/* Content */}
       <div className="absolute inset-0 flex items-center justify-start text-left px-10">
         <div className="text-white max-w-7xl">
-          <div className="border-l-4 border-red-500 pl-4">
-            <p className="text-lg sm:text-xl md:text-2xl font-semibold animate-slide-down text-blue-900">
-              Our journey at <span className="font-semibold">AVCO</span> has
-              been of pure commitment, innovation, and partnership. We firmly
-              believe in the advantages and offerings of distributed solar
-              services, and our team is extremely passionate about delivering
-              the best in-class solar power plant services for our clients.
+          <div className="border-l-4 border-[#00BF63] pl-4">
+            <p className="text-lg sm:text-xl md:text-2xl font-semibold animate-slide-down ">
+            Turn your rooftop into a clean energy source with Envira Energies' Solar Rooftop Solutions. Reduce electricity bills, cut carbon footprints, and embrace a greener future with tailored solar systems for homes, businesses, and industries. With efficient designs, seamless installation, and ongoing support, switching to solar has never been easier. Let your rooftop work smarter—join the renewable energy revolution today!
             </p>
           </div>
         </div>

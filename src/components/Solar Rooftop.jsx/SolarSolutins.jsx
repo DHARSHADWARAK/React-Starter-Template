@@ -1,5 +1,5 @@
 import React from "react";
-import capexImage from "../../assets/solns.jpg"; // Replace with actual image paths
+import capexImage from "../../assets/sol1.jpeg"; // Replace with actual image paths
 import opexImage from "../../assets/solns.jpg"; // Replace with actual image paths
 import capexIcon from "../../assets/solns.jpg"; // Replace with actual icon paths
 import opexIcon from "../../assets/solns.jpg"; // Replace with actual icon paths
@@ -35,14 +35,14 @@ const solutions = [
 
 const SolarSolutions = () => {
   return (
-    <section className="bg-gray-50 py-16 px-6">
+    <section className="bg-[#00bf63] py-16 px-6 pb-28">
       <div className="container mx-auto">
         {/* Title */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#00bf63]">
-            SOLAR POWER <span className="text-blue-900">SOLUTIONS</span>
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#1D4DD7]">
+            SOLAR POWER <span className="text-white font-normal">SOLUTIONS</span>
           </h2>
-          <div className="w-16 h-1 bg-red-500 mx-auto my-4"></div>
+          <div className="w-16 h-1 bg-[#1D4DD7] mx-auto my-4"></div>
         </div>
 
         {/* Grid Layout */}

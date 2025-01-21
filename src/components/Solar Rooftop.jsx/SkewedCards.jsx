@@ -17,15 +17,15 @@ const skewedCards = [
 
 const SkewedCards = () => {
   return (
-    <section className="bg-gray-100 py-10 px-6">
+    <section className="bg-[#00bf63] py-10 px-6">
       <div className="container mx-auto flex flex-col md:flex-row justify-center items-center gap-6">
         {skewedCards.map((card) => (
           <div
             key={card.id}
-            className="relative bg-[#00bf63] text-white py-6 px-8 text-center transform skew-x-6 animate-slide-down"
+            className="relative bg-[#1D4DD7] text-white py-6 px-8 text-center transform skew-x-12 animate-slide-down"
           >
             {/* Content */}
-            <div className="-skew-x-6">
+            <div className="-skew-x-12">
               <p className="text-lg font-bold">{card.text}</p>
             </div>
           </div>

@@ -19,15 +19,15 @@ const Team = () => {
       style={{ backgroundImage: `url(${teamBg})` }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#00bf63] opacity-50"></div>
+      <div className="absolute inset-0 bg-cyan-200 opacity-50"></div>
 
       {/* Content */}
       <div className="relative z-10 container mx-auto text-center">
         {/* Title */}
-        <h2 className="text-3xl sm:text-4xl font-bold text-blue-900">
-          OUR <span className="text-red-500">TEAM</span>
+        <h2 className="text-3xl sm:text-4xl font-bold text-[#00BF63]">
+          OUR <span className="text-[#1D4DD7]">TEAM</span>
         </h2>
-        <div className="w-16 h-1 bg-red-500 mx-auto my-4"></div>
+        <div className="w-16 h-1 bg-[#00BF63] mx-auto my-4"></div>
 
         {/* Team Members */}
         <div className="grid grid-rows-2 grid-cols-2 gap-8 mt-8 md:mx-36">

@@ -18,10 +18,10 @@ const Clients = () => {
     <section className="bg-white py-16 mb-20">
       <div className="container mx-auto text-center">
         {/* Title */}
-        <h2 className="text-3xl sm:text-4xl font-bold text-blue-900">
-          OUR <span className="text-red-500">KEY CLIENTS</span>
+        <h2 className="text-3xl sm:text-4xl font-bold text-[#00Bf63]">
+          OUR <span className="text-[#1D4DD7]">KEY CLIENTS</span>
         </h2>
-        <div className="w-16 h-1 bg-red-500 mx-auto my-4"></div>
+        <div className="w-16 h-1 bg-[#1D4DD7] mx-auto my-4"></div>
 
         {/* Client Logos */}
         <div className="flex flex-wrap md:flex-row items-center justify-center gap-6 mt-8">

@@ -19,9 +19,9 @@ const GrowthPartners = () => {
       <div className="container mx-auto text-center">
         {/* Title */}
         <h2 className="text-3xl sm:text-4xl font-bold text-[#00bf63]">
-        GROWTH <span className="text-blue-900">PARTNERS</span>
+        GROWTH <span className="text-[#1D4DD7]">PARTNERS</span>
         </h2>
-        <div className="w-16 h-1 bg-red-500 mx-auto my-4"></div>
+        <div className="w-16 h-1 bg-[#1D4DD7] mx-auto my-4"></div>
 
         {/* Client Logos */}
         <div className="flex flex-wrap md:flex-row items-center justify-center gap-6 mt-8">

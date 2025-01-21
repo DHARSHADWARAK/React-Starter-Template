@@ -15,7 +15,7 @@ const SolarRooftop = () => {
       <SkewedCards/>
       <Scope/>
       <SolarSolutions/>
-      <CaseStudies/>
+      {/* <CaseStudies/> */}
       <Footer/>
     </>
   )

@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../../assets/landing_sec_bg.jpeg"; // Replace with your background image path
+import bgImage from "../../assets/abtbg.jpeg"; // Replace with your background image path
 
 const Hero = () => {
     const scrollToNextSection = () => {
@@ -14,18 +14,14 @@ const Hero = () => {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-yellow-400 via-lime-400 to-green-400 opacity-50"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-gray-400  to-[#00BF63] opacity-50"></div>
 
       {/* Content */}
       <div className="absolute inset-0 flex items-center justify-start text-left px-10">
         <div className="text-white max-w-7xl">
           <div className="border-l-4 border-red-500 pl-4">
             <p className="text-lg sm:text-xl md:text-2xl font-semibold animate-slide-down">
-              Our journey at <span className="font-semibold">AVCO</span> has
-              been of pure commitment, innovation, and partnership. We firmly
-              believe in the advantages and offerings of distributed solar
-              services, and our team is extremely passionate about delivering
-              the best in-class solar power plant services for our clients.
+            At Envira Energies, we are committed to driving a sustainable future by harnessing the limitless potential of renewable energy. Founded with a vision to transform the way the world powers itself, we are a pioneering force in clean energy solutions, empowering industries, businesses, and communities to adopt environmentally responsible practices.
             </p>
           </div>
         </div>

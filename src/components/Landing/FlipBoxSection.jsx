@@ -24,7 +24,7 @@ const FlipBoxSection = () => {
                 <div className='flip-box-front  bg-gray-100  rounded-lg shadow-lg text-gray-800'>
                   <div className='flex flex-col justify-center items-center'>
                   <div className='text-xl font-semibold'>
-                  <img src="src\assets\fb2.jpeg" alt="Description" className="w-[20rem] h-[15rem] md:w-[30rem] md:h-[25rem] border rounded-lg " />
+                  <img src="src\assets\o1.png" alt="Description" className="w-[20rem] h-[15rem] md:w-auto md:h-[25rem] border rounded-lg " />
                     </div>
                   <img src="src\assets\—Pngtree—vector star icon_4231909.png" className='w-[40%]' alt="" />{/*Use symbol related to the section*/}
                   </div>
@@ -56,7 +56,7 @@ const FlipBoxSection = () => {
                 <div className='flip-box-front  bg-gray-100  rounded-lg shadow-lg text-gray-800'>
                   <div className='flex flex-col justify-center items-center'>
                   <div className='text-xl font-semibold'>
-                  <img src="src\assets\fb1.jpeg" alt="Description" className="w-[20rem] h-[15rem] md:w-[30rem] md:h-[25rem] border rounded-lg " />
+                  <img src="src\assets\o2.png" alt="Description" className="w-[20rem] h-[15rem] md:w-auto md:h-[25rem] border rounded-lg " />
                     </div>
                   <img src="src\assets\—Pngtree—vector star icon_4231909.png" className='w-[40%]' alt="" />{/*Use symbol related to the section*/}
                   </div>

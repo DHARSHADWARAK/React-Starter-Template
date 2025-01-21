@@ -5,21 +5,16 @@ const Description = () => {
     <section id="next-section" className="bg-white py-16">
       <div className="container mx-auto text-center px-6">
         {/* Title */}
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">
-          <span className="text-[#00bf63]">WE ARE</span> <span className="text-blue-900">AVCO</span>
+        <h2 className="text-3xl sm:text-4xl  text-gray-800">
+          <span className="text-[#00bf63] font-bold">WE ARE</span> <span className="text-[#1D4DD7]">AVCO</span>
         </h2>
         <div className="flex justify-center mt-2">
-          <div className="w-16 h-1 bg-red-500"></div>
+          <div className="w-16 h-1 bg-[#1D4DD7]"></div>
         </div>
 
         {/* Description */}
         <p className="mt-6 text-gray-600 text-lg leading-relaxed  md:px-40 opacity-0 animate-fade-up">
-          Avco Energy is one of the leading pioneers of distributed solar services in India. As an
-          end-to-end solution provider with in-house capabilities, we assist our clients through the
-          entire process of project evaluation, design, engineering, and operation and maintenance.
-          We also provide multiple financing options, such as CAPEX and RESCO, to meet the needs of
-          our clients. Our reliable solutions and services are focused towards reducing energy costs
-          for our customers.
+        Envira Energies is a leading provider of distributed solar solutions in India, offering end-to-end services from project design to operation and maintenance. With flexible financing options like CAPEX and RESCO, we help businesses reduce energy costs while advancing sustainability. Our reliable, innovative solutions empower a cleaner and more energy-efficient future.
         </p>
 
         {/* Button */}
