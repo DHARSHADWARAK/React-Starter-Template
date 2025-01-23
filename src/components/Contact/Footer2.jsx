@@ -14,12 +14,12 @@ const Footer2 = () => {
       </div> */}
 
       {/* Main Footer */}
-      <div className="bg-gray-100 text-[#00bf63] pt-12   pb-12">
+      <div className="bg-[#00bf63] text-white pt-12   pb-12">
         <div className="mx-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo & Social Links */}
           <div>
                <a href="/" className="cursor-pointer">
-                   <img src={Logo} alt="AVCO Energy Logo" className="w-52 " />
+                   <img src={Logo} alt="AVCO Energy Logo" className="w-52 border b bg-white rounded-lg" />
                  </a>
             <div className="flex space-x-4">
               {/* Replace icons with actual paths or FontAwesome/React-Icons */}

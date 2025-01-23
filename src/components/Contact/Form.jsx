@@ -5,20 +5,20 @@ const Form = () => {
   return (
     <section className="bg-gray-50">
       {/* Contact Information Section */}
-      <div className="bg-[#00bf63] text-white py-8">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div className=" text-white ">
+        <div className="bg-[#00bf63] py-8 mx-auto flex justify-center gap-20 leading-10 text-center w-[50rem] items-center">
           <div>
             <h3 className="font-semibold text-lg">CORPORATE HQ</h3>
             <p>2/5, Sarat Bose Road, SukhSagar,</p>
             <p>Building - 2, Floor - 2</p>
             <p>Kolkata 700 020</p>
           </div>
-          <div>
+          {/* <div>
             <h3 className="font-semibold text-lg">BRANCH</h3>
             <p>502, Parekh Market,</p>
             <p>39, JSS Road, Kennedy Bridge,</p>
             <p>Opera House, Mumbai - 400 004</p>
-          </div>
+          </div> */}
           <div>
             <h3 className="font-semibold text-lg">CONTACT US</h3>
             <p>Email: info@avcoenergy.in</p>

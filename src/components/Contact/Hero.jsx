@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../../assets/rtopbg.jpg"; // Replace with your background image path
+import bgImage from "../../assets/cont.jpeg"; // Replace with your background image path
 
 const Hero = () => {
     const scrollToNextSection = () => {
