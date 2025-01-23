@@ -10,7 +10,7 @@ const HeroSection = () => {
   return (
     <section className="relative h-screen bg-cover bg-center font-sans " style={{ backgroundImage: `url(${bgImg})` }}>
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-      <div className="container mx-6 relative z-10 h-full flex flex-col justify-center items-start px-6 text-white ">
+      <div className="container  relative z-10 h-full flex flex-col justify-center items-start px-6 text-white ">
         <h1 className="text-4xl sm:text-6xl font-bold animate-fade-left">
           Harnessing the Power of <br /> <span className="text-green-500 ">Nature</span>
         </h1>

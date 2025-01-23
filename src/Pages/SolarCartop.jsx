@@ -8,7 +8,7 @@ const SolarCartop = () => {
     <>
     <Hero/>
     <Benefits/>
-    <Offerings/>
+    {/* <Offerings/> */}
     <Footer/>
     </>
   )

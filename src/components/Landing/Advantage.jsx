@@ -3,24 +3,24 @@ import indiaMap from "../../assets/adv.png"; // Replace with your map image path
 
 const advantages = [
   {
-    title: "PAN INDIA PRESENCE",
+    title: "COMPREHENSIVE SOLUTION",
     description:
-      "Our strong presence across India greatly helps us with on-time service, local liaisoning, and efficient project management activities.",
+      "Offering end-to-end services, from project evaluation and design to installation, operation, and maintenance, ensuring seamless execution and reliability.",
   },
   {
-    title: "48 HOUR SERVICE GUARANTEE",
+    title: "FLEXIBLE FINANCING OPTIONS",
     description:
-      "Dedicated and in-house O&M team with constant remote monitoring to ensure maximum generation and output across all power plants.",
+      "Providing tailored financing models like CAPEX and RESCO to meet diverse client needs and budgets.",
   },
   {
-    title: "EXPERIENCED PROJECT EXECUTION",
+    title: "COST EFFICIENCY",
     description:
-      "Strong and dedicated project execution team, with a focus on quality and performance.",
+      "Delivering solutions that significantly reduce energy costs while maximizing returns on investment.",
   },
   {
-    title: "END-TO-END SOLUTIONS",
+    title: "SUSTAINIBILITY FOCUS",
     description:
-      "Our end-to-end EPC solutions focus on offering design, engineering, and O&M for solar projects across the commercial, industrial, residential, and institutional sectors.",
+      "Committed to enabling clean and renewable energy adoption, contributing to a greener, more sustainable future.",
   },
 ];
 
@@ -30,7 +30,7 @@ const Advantage = () => {
 <div className="container flex flex-col md:flex-row items-center justify-between  px-6 lg:flex lg:items-center lg:gap-16">
         {/* Map Section */}
         <div className="relative w-full  ">
-          <img src={indiaMap} alt="India Map" className="w-full -mt-96 animate-fade-scale" />
+          <img src={indiaMap} alt="India Map" className="w-full md:-mt-96 animate-fade-scale" />
           {/* Map Markers */}
          
         </div>
@@ -38,8 +38,8 @@ const Advantage = () => {
         {/* Advantage Details */}
         <div className="mt-10 lg:mt-0 lg:w-1/2 text-left animate-slide-right">
           <h2 className="text-3xl sm:text-4xl font-bold text-[#1D4DD7]">
-            <span className="text-[#00bf63]">AVCO</span>{" "}
-            <span className="text-[#1D4DD7]">ADVANTAGE</span>
+            <span className="text-[#00bf63]">ENVIRA</span>{" "}
+            <span className="text-[#1D4DD7]">EDGE</span>
           </h2>
           <div className="w-16 h-1 bg-[#1D4DD7] my-4"></div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

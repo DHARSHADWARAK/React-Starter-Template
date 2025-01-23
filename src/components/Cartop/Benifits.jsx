@@ -1,35 +1,35 @@
 import React from "react";
-import benefitImage3 from "../../assets/b1.png"; // Import images properly
-import benefitImage2 from "../../assets/b2.png";
-import benefitImage1 from "../../assets/b3.png";
+import benefitImage3 from "../../assets/ct1.jpeg"; // Import images properly
+import benefitImage2 from "../../assets/ct2.png";
+import benefitImage1 from "../../assets/ct3.jpeg";
 
 const benefits = [
   {
     id: 1,
-    title: "No Land Requirement",
+    title: "Dual Purpose Infrastructure",
     description:
-      "Floating solar uses water bodies as a base rather than land. This allows maximum utilization of otherwise unused water bodies and helps clients save on other valuable land space for the project.",
+      "Solar carports provide shade and protection for vehicles while generating clean, renewable energy. This dual functionality maximizes the use of available space, especially in parking lots or open areas.",
     image: benefitImage1,
   },
   {
     id: 2,
-    title: "Higher Energy Yield",
+    title: "Reduced Energy Costs",
     description:
-      "The underlying water bodies keep the solar panels at a lower temperature in comparison to the traditional ground mount and rooftop solar systems. This directly leads to higher yield.",
+      "Solar carports generate electricity from sunlight, reducing dependence on traditional energy sources. This leads to significant savings on electricity bills over time, especially for businesses or properties with high energy demands.",
     image: benefitImage2,
   },
   {
     id: 3,
-    title: "Flexible Solar Plant Design",
+    title: "Energy Independence and Resilience",
     description:
-      "Floating solar allows for great flexibility in the solar plant design to maximize generation as per the accurate tilt angle and placement of solar panels based on the direction of the sun path.",
+      "Solar carports can be integrated with battery storage systems, providing backup power during outages and reducing reliance on the grid. This ensures energy availability when it’s most critical, offering peace of mind and long-term resilience.",
     image: benefitImage3,
   },
 ];
 
 const Benefits = () => {
   return (
-    <section className="bg-gray-50 py-16">
+    <section className="bg-gray-50 py-16 pb-32">
       <div className="container mx-auto text-center">
         {/* Title */}
         <h2 className="text-3xl sm:text-4xl font-bold text-[#00bf63]">
@@ -42,16 +42,20 @@ const Benefits = () => {
           {benefits.map((benefit) => (
             <div
               key={benefit.id}
-              className="flex flex-col items-center space-y-4 px-4"
+              className="flex flex-col items-center justify-center space-y-4 px-4"
             >
               <img
                 src={benefit.image}
                 alt={benefit.title}
-                className=" object-cover rounded-full animate-fade-down"
+                className={`object-cover rounded-full animate-fade-down ${
+                  benefit.id === 2 ? "w-[90%]" : ""
+                }`}
               />
 
               {/* Title */}
-              <h3 className="text-lg font-semibold text-gray-800 animate-fade-up">
+              <h3 className="text-lg font-semibold text-gray-800 animate-fade-up"
+              
+              >
                 {benefit.title}
               </h3>
 

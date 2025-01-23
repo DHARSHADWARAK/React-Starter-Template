@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../../assets/carportbg.jpg"; // Replace with your background image path
+import bgImage from "../../assets/ctbg.jpeg"; // Replace with your background image path
 
 const Hero = () => {
     const scrollToNextSection = () => {
@@ -10,16 +10,16 @@ const Hero = () => {
       };
   return (
     <section
-      className="relative bg-cover bg-center h-screen"
+      className="relative bg-cover bg-center h-screen "
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-yellow-400 via-lime-400 to-green-400 opacity-50"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-[#00bf63]  to-[#1D4DD7] opacity-50"></div>
 
       {/* Content */}
       <div className="absolute inset-0 flex items-center justify-start text-left px-10">
         <div className="text-white max-w-7xl">
-          <div className="border-l-4 border-red-500 pl-4">
+          <div className="border-l-4 border-[#00bf63] pl-4">
             <p className="text-lg sm:text-xl md:text-2xl font-semibold animate-slide-down">
               Our journey at <span className="font-semibold">AVCO</span> has
               been of pure commitment, innovation, and partnership. We firmly

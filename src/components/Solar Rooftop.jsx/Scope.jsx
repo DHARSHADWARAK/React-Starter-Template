@@ -55,12 +55,12 @@ const services = [
 
 const Scope = () => {
   return (
-    <section className="bg-[#00bf63] py-16">
+    <section className="bg-white py-16">
       <div className="container mx-auto">
         {/* Title */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#1D4DD7]">
-            SCOPE <span className="text-white font-normal">OF SERVICE</span>
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#00bf63]">
+            SCOPE <span className="text-[#1D4DD7] font-normal">OF SERVICE</span>
           </h2>
           <div className="w-16 h-1 bg-[#1D4DD7] mx-auto my-4"></div>
         </div>

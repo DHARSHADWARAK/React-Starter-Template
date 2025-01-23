@@ -37,14 +37,14 @@ const ModelSection = () => {
             {/* Title */}
             <div className="flex flex-col gap-6">
               <h2 className="text-3xl font-bold text-[#00bf63]">
-                {model.title.split(" ")[0]}{" "}
-                <span className="text-blue-900">
-                  {model.title.split(" ")[1]} {model.title.split(" ")[2]}
+                {model.title.split(" ")[0]}{" "}{model.title.split(" ")[1]}{" "}
+                <span className="text-[#1D4DD7] font-normal">
+                   {model.title.split(" ")[2]}
                 </span>
               </h2>
 
               {/* Description */}
-              <p className="text-gray-600 max-w-[30rem]">{model.description}</p>
+              <p className="text-gray-600 max-w-[30rem] text-lg font-normal">{model.description}</p>
             </div>
 
             {/* Points */}

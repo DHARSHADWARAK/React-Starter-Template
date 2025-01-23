@@ -19,7 +19,7 @@ const Hero = () => {
       {/* Content */}
       <div className="absolute inset-0 flex items-center justify-start text-left px-10">
         <div className="text-white max-w-7xl">
-          <div className="border-l-4 border-red-500 pl-4">
+          <div className="border-l-4 border-[#00bf63] pl-4">
             <p className="text-lg sm:text-xl md:text-2xl font-semibold animate-slide-down">
             At Envira Energies, we are committed to driving a sustainable future by harnessing the limitless potential of renewable energy. Founded with a vision to transform the way the world powers itself, we are a pioneering force in clean energy solutions, empowering industries, businesses, and communities to adopt environmentally responsible practices.
             </p>

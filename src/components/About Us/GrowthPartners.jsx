@@ -1,17 +1,17 @@
 import React from "react";
-import client1 from "../../assets/c1.jpeg"; // Replace with actual paths to client logos
-import client2 from "../../assets/c1.jpeg";
-import client3 from "../../assets/c1.jpeg";
-import client4 from "../../assets/c1.jpeg";
-import client5 from "../../assets/c1.jpeg";
+import client1 from "../../assets/p1.png"; // Replace with actual paths to client logos
+import client2 from "../../assets/p2.png";
+import client3 from "../../assets/p3.png";
+// import client4 from "../../assets/c1.jpeg";
+// import client5 from "../../assets/c1.jpeg";
 
 const GrowthPartners = () => {
   const clients = [
     { id: 1, logo: client1, alt: "Client 1" },
     { id: 2, logo: client2, alt: "Client 2" },
     { id: 3, logo: client3, alt: "Client 3" },
-    { id: 4, logo: client4, alt: "Client 4" },
-    { id: 5, logo: client5, alt: "Client 5" },
+    // { id: 4, logo: client4, alt: "Client 4" },
+    // { id: 5, logo: client5, alt: "Client 5" },
   ];
 
   return (
@@ -39,7 +39,7 @@ const GrowthPartners = () => {
               <img
                 src={client.logo}
                 alt={client.alt}
-                className="h-16 w-auto object-contain"
+                className="h-auto w-auto object-contain"
               />
             </div>
           ))}

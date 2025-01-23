@@ -44,11 +44,11 @@ const sectors = [
 
 const SectorsSectionWithCustomOrder = () => {
   return (
-    <section className="bg-[#00bf63] py-16 md:px-28 px-6">
+    <section className="bg-white py-16 md:px-28 px-6">
       <div className="container mx-auto">
         {/* Title */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#00bf63]">
           INDUSTRIES <span className="text-blue-900 font-normal">WE SERVE</span>
           </h2>
           {/* <div className="w-16 h-1 bg-red-500 mx-auto my-4"></div> */}
@@ -59,7 +59,7 @@ const SectorsSectionWithCustomOrder = () => {
           {sectors.map((sector, index) => (
             <div
               key={sector.id}
-              className={`flex flex-row items-center gap-8 ${
+              className={`flex flex-col md:flex-row items-center gap-8 ${
                 index === 1 ? "" : "flex-row-reverse"
               }`}
             >
@@ -78,10 +78,10 @@ const SectorsSectionWithCustomOrder = () => {
               <div className={`md:px-20 animate-fade-right ${
                 index === 1 ? "pl-4" : ""
               }`}>
-                <h3 className="text-xl font-bold text-black mb-4">
+                <h3 className="text-3xl font-bold text-black mb-4">
                   {sector.title}
                 </h3>
-                <p className="text-black leading-relaxed mb-4">
+                <p className="text-black text-lg leading-relaxed mb-4">
                   {sector.description}
                 </p>
                 

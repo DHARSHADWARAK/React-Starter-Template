@@ -35,12 +35,12 @@ const solutions = [
 
 const SolarSolutions = () => {
   return (
-    <section className="bg-[#00bf63] py-16 px-6 pb-28">
+    <section className=" py-16 px-6 pb-28">
       <div className="container mx-auto">
         {/* Title */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#1D4DD7]">
-            SOLAR POWER <span className="text-white font-normal">SOLUTIONS</span>
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#00bf63]">
+            SOLAR POWER <span className="text-[#1D4DD7] font-normal">SOLUTIONS</span>
           </h2>
           <div className="w-16 h-1 bg-[#1D4DD7] mx-auto my-4"></div>
         </div>
@@ -63,7 +63,7 @@ const SolarSolutions = () => {
                   alt={solutions[0].title}
                   className="w-8 h-8 mr-4"
                 /> */}
-                <h3 className="text-xl font-bold text-blue-900 animate-[fade-in_1s_ease-in]">
+                <h3 className="text-xl md:text-3xl font-bold text-blue-900 animate-[fade-in_1s_ease-in]">
                 {solutions[0].title}
                 </h3>
               </div>
@@ -71,7 +71,7 @@ const SolarSolutions = () => {
                 {solutions[0].description.map((point, idx) => (
                   <li
                     key={idx}
-                    className="list-disc text-gray-600 text-sm sm:text-base animate-[fade-in_1s_ease-in]"
+                    className="list-disc  text-sm md:text-lg sm:text-base animate-[fade-in_1s_ease-in]"
                   >
                     {point}
                   </li>
@@ -96,15 +96,15 @@ const SolarSolutions = () => {
                   alt={solutions[1].title}
                   className="w-8 h-8 mr-4"
                 /> */}
-                <h3 className="text-xl font-bold text-blue-900 animate-[fade-in_1s_ease-in]">
-                  {solutions[1].title}
+                <h3 className="text-xl md:text-3xl font-bold text-blue-900 animate-[fade-in_1s_ease-in]">
+                {solutions[1].title}
                 </h3>
               </div>
               <ul className="space-y-2 pl-4">
                 {solutions[1].description.map((point, idx) => (
                   <li
                     key={idx}
-                    className="list-disc text-gray-600 text-sm sm:text-base animate-[fade-in_1s_ease-in]"
+                    className="list-disc  text-sm md:text-lg sm:text-base animate-[fade-in_1s_ease-in]"
                   >
                     {point}
                   </li>

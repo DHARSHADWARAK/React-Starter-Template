@@ -1,9 +1,9 @@
 import React from "react";
 import teamBg from "../../assets/landing_sec_bg.jpeg"; // Replace with your background image
 import teamMember1 from "../../assets/t1.jpeg"; // Replace with actual paths to team photos
-import teamMember2 from "../../assets/t1.jpeg";
-import teamMember3 from "../../assets/t1.jpeg";
-import teamMember4 from "../../assets/t1.jpeg";
+import teamMember2 from "../../assets/t2.jpeg";
+import teamMember3 from "../../assets/t3.jpeg";
+import teamMember4 from "../../assets/t4.jpeg";
 
 const Team = () => {
   const teamMembers = [
@@ -42,7 +42,7 @@ const Team = () => {
                 />
               </div>
               {/* Name */}
-              <h3 className="mt-4 text-lg font-semibold text-white">
+              <h3 className="mt-4 text-lg font-semibold text-black">
                 {member.name}
               </h3>
             </div>

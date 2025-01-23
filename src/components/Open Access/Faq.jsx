@@ -12,9 +12,9 @@ const FAQs = () => {
       <div className="container mx-auto text-center">
         {/* Title */}
         <h2 className="text-3xl sm:text-4xl font-bold text-[#00bf63]">
-          FREQUENTLY <span className="text-blue-900">ASKED</span>
+          FREQUENTLY <span className="font-normal text-[#1D4DD7]">ASKED</span>
         </h2>
-        <div className="w-16 h-1 bg-red-500 mx-auto my-4"></div>
+        <div className="w-16 h-1 bg-[#1D4DD7] mx-auto my-4"></div>
 
         {/* FAQ List */}
         <ul className="mt-8 space-y-4 text-left max-w-2xl mx-auto">

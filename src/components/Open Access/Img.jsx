@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "../../assets/cartop.jpg"
+import image from "../../assets/oaimg.png"
 const Img = () => {
   return (
     <>

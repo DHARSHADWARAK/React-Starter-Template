@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../../assets/landing_sec_bg.jpeg"; // Replace with your background image path
+import bgImage from "../../assets/fsbg.jpeg"; // Replace with your background image path
 
 const Hero = () => {
     const scrollToNextSection = () => {
@@ -14,19 +14,14 @@ const Hero = () => {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-yellow-400 via-lime-400 to-green-400 opacity-50"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-[#1D4DD7]  to-[#00bf63] opacity-50"></div>
 
       {/* Content */}
       <div className="absolute inset-0 flex items-center justify-start text-left px-10">
         <div className="text-white max-w-7xl">
-          <div className="border-l-4 border-red-500 pl-4">
+          <div className="border-l-4 border-[#00bf63] pl-4">
             <p className="text-lg sm:text-xl md:text-2xl font-semibold animate-slide-down">
-              Our journey at <span className="font-semibold">AVCO</span> has
-              been of pure commitment, innovation, and partnership. We firmly
-              believe in the advantages and offerings of distributed solar
-              services, and our team is extremely passionate about delivering
-              the best in-class solar power plant services for our clients.
-            </p>
+            Floating solar allows us to reap all the benefits of solar energy, without utilizing valuable land and space. As floating solar plants rely on a water base rather than land, clients can save valuable land space and make use of otherwise unused water bodies. Avco team works with it’s approved partners to provide a complete design and installation service to meet the client’s needs.             </p>
           </div>
         </div>
       </div>
