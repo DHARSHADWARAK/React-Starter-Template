@@ -60,9 +60,9 @@ const Services = () => {
         {/* Title */}
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-[#00bf63]">
-            SERVICES <span className="text-blue-900">OFFERED</span>
+            SERVICES <span className="text-[#1d4dd7]">OFFERED</span>
           </h2>
-          <div className="w-16 h-1 bg-red-500 mx-auto my-4"></div>
+          <div className="w-16 h-1 bg-[#1d4dd7] mx-auto my-4"></div>
         </div>
 
         {/* Grid Layout */}

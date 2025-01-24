@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../assets/15.svg"
 const Footer2 = () => {
   return (
-    <footer className="border-8 border-green-400 bg-gray-900 text-white">
+    <footer className=" bg-gray-900 text-white">
       {/* Call-to-Action Banner */}
       {/* <div className="absolute ml-[25vw] -mt-[28vw] md:-mt-[5vw] bg-gradient-to-r from-teal-400 to-lime-300 py-8 w-1/2 justify-center text-center">
         <h2 className="text-2xl sm:text-3xl font-semibold text-white mb-4 animate-fade-down">

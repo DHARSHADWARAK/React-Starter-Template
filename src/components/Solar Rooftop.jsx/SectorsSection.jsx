@@ -60,7 +60,7 @@ const SectorsSectionWithCustomOrder = () => {
             <div
               key={sector.id}
               className={`flex flex-col md:flex-row items-center gap-8 ${
-                index === 1 ? "" : "flex-row-reverse"
+                index === 1 ? "" : "md:flex-row-reverse"
               }`}
             >
               {/* Image */}

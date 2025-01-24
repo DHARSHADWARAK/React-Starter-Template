@@ -9,11 +9,11 @@ const solutions = [
     id: 1,
     title: "CAPEX",
     description: [
-      "Complete Ownership of the Solar Plant",
-      "Accelerated Depreciation Benefits",
-      "Input GST Credit",
-      "4-5 year Payback, High IRR and returns",
-      "Plant Monitoring and Analytics",
+      "Full system ownership for long-term savings",
+      "Tax benefits like accelerated depreciation",
+      "Reduced electricity costs",
+      "Custom energy solutions",
+      "High ROI with 25+ years of efficiency",
     ],
     icon: capexIcon,
     image: capexImage,
@@ -22,11 +22,11 @@ const solutions = [
     id: 2,
     title: "OPEX/RESCO",
     description: [
-      "AVCO Owns the Solar Plant",
-      "Zero Investment required",
-      "Yearly Savings",
-      "Zero O&M",
-      "PPA Agreement with AVCO",
+      "Zero upfront investment",
+      "Pay only for the energy consumed (per unit)",
+      "Provider handles system ownership and maintenance",
+      "Long-term savings with predictable energy costs",
+      "Hassle-free transition to renewable energy",
     ],
     icon: opexIcon,
     image: opexImage,
@@ -48,7 +48,7 @@ const SolarSolutions = () => {
         {/* Grid Layout */}
         <div className="flex flex-col gap-12 items-center">
           {/* Left Side: Image + Description */}
-          <div className="flex flex-col md:flex-row gap-6 md:gap-80">
+          <div className="flex flex-col md:flex-row gap-6 md:gap-72">
             <div className="flex justify-center items-center">
               <img
                 src={solutions[0].image}
@@ -81,7 +81,7 @@ const SolarSolutions = () => {
           </div>
 
           {/* Right Side: Image + Description */}
-          <div className="flex flex-col md:flex-row-reverse gap-6 md:gap-96">
+          <div className="flex flex-col md:flex-row-reverse gap-6 md:gap-60">
             <div className="flex justify-center items-center">
               <img
                 src={solutions[1].image}

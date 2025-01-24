@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../../assets/fsbg.jpeg"; // Replace with your background image path
+import bgImage from "../../assets/oabg2.jpeg"; // Replace with your background image path
 
 const Hero = () => {
     const scrollToNextSection = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="text-white max-w-7xl">
           <div className="border-l-4 border-[#00bf63] pl-4">
             <p className="text-lg sm:text-xl md:text-2xl font-semibold animate-slide-down">
-            Floating solar allows us to reap all the benefits of solar energy, without utilizing valuable land and space. As floating solar plants rely on a water base rather than land, clients can save valuable land space and make use of otherwise unused water bodies. Avco team works with it’s approved partners to provide a complete design and installation service to meet the client’s needs.             </p>
+            Open Access is a commitment to providing free, immediate, and unrestricted access to high-quality research and knowledge. By removing financial, legal, and technical barriers, we empower individuals and institutions to share and engage with academic content, fostering a global exchange of ideas. This approach ensures that research can be accessed by anyone, anywhere, contributing to the advancement of science, education, and innovation.</p>
           </div>
         </div>
       </div>

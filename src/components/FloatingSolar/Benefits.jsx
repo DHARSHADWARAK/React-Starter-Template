@@ -6,23 +6,23 @@ import benefitImage1 from "../../assets/fs3.jpeg";
 const benefits = [
   {
     id: 1,
-    title: "Dual Purpose Infrastructure",
+    title: "No Land Requirement",
     description:
-      "Solar carports provide shade and protection for vehicles while generating clean, renewable energy. This dual functionality maximizes the use of available space, especially in parking lots or open areas.",
+      "Floating solar uses water bodies as a base rather than land. This allows maximum utilization of otherwise unused water bodies, and helps clients save on thier valuable land space for the project.",
     image: benefitImage1,
   },
   {
     id: 2,
-    title: "Reduced Energy Costs",
+    title: "Higher Energy Yield",
     description:
-      "Solar carports generate electricity from sunlight, reducing dependence on traditional energy sources. This leads to significant savings on electricity bills over time, especially for businesses or properties with high energy demands.",
+      "The underlying water bodies, keeps the solar panels at a lower temperature in comparison to the traditional ground mount and rooftop solar systems. This directly leads to higher yield.",
     image: benefitImage2,
   },
   {
     id: 3,
-    title: "Energy Independence and Resilience",
+    title: "Flexible Solar Plant Design",
     description:
-      "Solar carports can be integrated with battery storage systems, providing backup power during outages and reducing reliance on the grid. This ensures energy availability when it’s most critical, offering peace of mind and long-term resilience.",
+      "Floating solar allows for great flexibility in the solar plant design to maximize generation as per the accurate tilt angle and placement of solar plants based on the direction of the sun path.",
     image: benefitImage3,
   },
 ];
@@ -33,9 +33,9 @@ const Benefits = () => {
       <div className="container mx-auto text-center">
         {/* Title */}
         <h2 className="text-3xl sm:text-4xl font-bold text-[#00bf63]">
-          THE <span className="text-blue-900">BENEFITS</span>
+          THE <span className="text-[#1d4dd7]">BENEFITS</span>
         </h2>
-        <div className="w-16 h-1 bg-red-500 mx-auto my-4"></div>
+        <div className="w-16 h-1 bg-[#1d4dd7] mx-auto my-4"></div>
 
         {/* Benefits */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-8">
@@ -48,7 +48,7 @@ const Benefits = () => {
                 src={benefit.image}
                 alt={benefit.title}
                 className={`object-cover  animate-fade-down ${
-                  benefit.id === 2 ? "w-[90%]" : benefit.id === 3 ? "w-[60%]" : ""
+                  benefit.id === 2 ? "w-[90%]" : benefit.id === 3 ? "w-[60%]" : benefit.id === 1 ? "md:mb-16":"" 
                   
                 }`}
               />

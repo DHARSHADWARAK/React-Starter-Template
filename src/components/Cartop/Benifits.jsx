@@ -48,7 +48,7 @@ const Benefits = () => {
                 src={benefit.image}
                 alt={benefit.title}
                 className={`object-cover rounded-full animate-fade-down ${
-                  benefit.id === 2 ? "w-[90%]" : ""
+                  benefit.id === 2 ? "w-[90%]" : benefit.id === 3 ? "md:mt-11":""
                 }`}
               />
 
