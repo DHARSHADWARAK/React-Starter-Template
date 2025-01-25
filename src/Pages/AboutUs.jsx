@@ -11,7 +11,7 @@ const AboutUs = () => {
     <>
         <Hero/>
         <MissionSection/>
-        <Team/>
+        {/* <Team/> */}
         <GrowthPartners/>
         {/* <MediaCoverage/> */}
         <Footer/>

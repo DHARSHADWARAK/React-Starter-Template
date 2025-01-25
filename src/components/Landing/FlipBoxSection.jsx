@@ -19,17 +19,17 @@ const FlipBoxSection = () => {
         <div className="flex flex-col md:flex-row items-center justify-center  gap-8 px-6">
         
 
-            <div  className='flip-box animate-fade-left'>
+            {/* <div  className='flip-box animate-fade-left'>
               <div className="flip-box-inner ">
-                <div className='flip-box-front  bg-gray-100  rounded-lg shadow-lg text-gray-800'>
+                <div className='flip-box-front  bg-gray-100  rounded-lg shadow-lg text-gray-800'> */}
                   <div className='flex flex-col justify-center items-center'>
-                  <div className='flex text-xl font-semibold items-center justify-center p-2 pt-[12.5%]'>
-                  <img src="src\assets\o1.png" alt="Description" className="w-auto h-auto md:w-auto md:h-auto  pt-[12.5%] lg:pt-0" />
+                  <div className='flex text-xl font-semibold items-center justify-center p-2 '>
+                  <img src="src\assets\o1.png" alt="Description" className="w-auto h-auto md:w-auto md:h-auto   " />
                     </div>
                   <img src="src\assets\—Pngtree—vector star icon_4231909.png" className='w-[40%]' alt="" />{/*Use symbol related to the section*/}
-                  </div>
+                  {/* </div> */}
                 </div>
-                <div className='flip-box-back bg-[#00bf63] flex flex-col items-center gap-5 md:gap-10 rounded-lg shadow-lg text-white'>
+                {/* <div className='flip-box-back bg-[#00bf63] flex flex-col items-center gap-5 md:gap-10 rounded-lg shadow-lg text-white'>
                   <h3 className="text-4xl md:text-6xl font-bold pt-3">CAPEX</h3>
                   <div>
                     <ul className=" md:text-xl flex list-disc flex-col md:gap-3 items-start">
@@ -48,18 +48,18 @@ const FlipBoxSection = () => {
                         <li>Plat Monitoring and Analytics</li>
                     </ul>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div  className='flip-box animate-fade-right'>
+                </div> */}
+              {/* </div>
+            </div> */}
+            {/* <div  className='flip-box animate-fade-right'>
               <div className="flip-box-inner ">
-                <div className='flip-box-front  bg-gray-100  rounded-lg shadow-lg text-gray-800'>
+                <div className='flip-box-front  bg-gray-100  rounded-lg shadow-lg text-gray-800'> */}
                   <div className='flex flex-col justify-center items-center'>
-                  <div className='flex text-xl font-semibold items-center justify-center p-2 pt-[12.5%] lg:pt-0'>
+                  <div className='flex text-xl font-semibold items-center justify-center p-2'>
                   <img src="src\assets\o2.png" alt="Description" className="w-auto h-auto md:w-auto md:h-auto  " />
                     </div>
                   <img src="src\assets\—Pngtree—vector star icon_4231909.png" className='w-[40%]' alt="" />{/*Use symbol related to the section*/}
-                  </div>
+                  {/* </div> */}
                 </div>
                 <div className='flip-box-back bg-[#00bf63] flex flex-col items-center gap-5 md:gap-10 rounded-lg shadow-lg text-white'>
                   <h3 className="text-4xl md:text-6xl font-bold pt-3">CAPEX</h3>
@@ -80,8 +80,8 @@ const FlipBoxSection = () => {
                         <li>PPA Agreement with AVCO</li>
                     </ul>
                   </div>
-                </div>
-              </div>
+                {/* </div>
+              </div> */}
             </div>
         </div>
         </div>

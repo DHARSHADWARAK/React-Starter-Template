@@ -6,28 +6,28 @@ const services = [
     title: "ROOFTOP SOLAR",
     description:
       "Envira Energies offers fully integrated EPC solutions for rooftop solar, specializing in engineering, design, installation, and commissioning. We cater to government, commercial, institutional, and residential sectors, delivering efficient and reliable solar energy solutions tailored to diverse needs.",
-    image: "src/assets/s4.jpeg",
+    image: "src/assets/s1.jpeg",
     png: "src/assets/sp4.png",
   },
   {
     title: "OPEN ACCESS",
     description:
       "Envira Energies enables businesses to purchase solar power from the open market, providing a cost-effective alternative to grid electricity. With Open Access, corporates can meet the majority of their daytime energy needs sustainably, benefiting from lower tariffs and cleaner power solutions.",
-    image: "src/assets/s3.jpeg",
+    image: "src/assets/s2.jpeg",
     png: "src/assets/sp3.png",
   },
   {
     title: "FLOATING SOLAR",
     description:
       "Envira Energies brings you floating solar solutions that harness the power of the sun without utilizing valuable land. By utilizing unused water bodies, clients can save space while enjoying all the benefits of clean and efficient solar energy.",
-    image: "src/assets/s2.jpeg",
+    image: "src/assets/s3.jpeg",
     png: "src/assets/sp2.png",
   },
   {
     title: "SOLAR CARPORTS",
     description:
       "Envira Energies' solar carports combine functionality and sustainability, providing shade for parked vehicles while generating clean, renewable energy. They offer a smart, dual-purpose solution for commercial and sustainable benefits.",
-    image: "src/assets/s1.jpeg",
+    image: "src/assets/s4.jpeg",
     png: "src/assets/sp1.png",
   },
 ];

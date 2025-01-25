@@ -23,7 +23,7 @@ const Hero = () => {
             <p className="text-lg sm:text-xl md:text-2xl font-semibold animate-slide-down ">
             Floating solar allows us to reap all the benefits of solar energy, without utilizing valuable land and space. As floating solar plants
 rely on a water base rather than land, clients can save valuable land space and make use of otherwise unused water bodies.
-Avco team works with it’s approved partners to provide a complete design and installation service to meet the client’s needs.             </p>
+Avco team works with it’s approved partners to provide a complete design and installation service to meet the client’s needs.  </p>
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ const LandingPage = () => {
         {/* <Navbar/> */}
         <HeroSection/>
         <Description/>
-        <Numbers/>
+        {/* <Numbers/> */}
         <Services/>
         <FlipBoxSection/>
         <Advantage/>

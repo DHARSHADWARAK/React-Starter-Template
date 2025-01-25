@@ -21,11 +21,7 @@ const Hero = () => {
         <div className="text-white max-w-7xl">
           <div className="border-l-4 border-[#00bf63] pl-4">
             <p className="text-lg sm:text-xl md:text-2xl font-semibold animate-slide-down">
-              Our journey at <span className="font-semibold">AVCO</span> has
-              been of pure commitment, innovation, and partnership. We firmly
-              believe in the advantages and offerings of distributed solar
-              services, and our team is extremely passionate about delivering
-              the best in-class solar power plant services for our clients.
+            Envira Energies offers innovative solar carports that turn parking spaces into energy-generating assets. Our solutions provide vehicle protection while producing clean, renewable energy, reducing energy costs, and enhancing property value. Invest in sustainability and efficiency with Envira Energies' solar carports.
             </p>
           </div>
         </div>
