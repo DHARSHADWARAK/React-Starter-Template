@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 const FlipBoxSection = () => {
   return (
     <section className="bg-gradient-to-b from-green-100 via-white to-green-100 py-16">
@@ -16,76 +14,43 @@ const FlipBoxSection = () => {
         </div>
 
         {/* Models */}
-        <div className="flex flex-col md:flex-row items-center justify-center  gap-8 px-6">
-        
-
-            {/* <div  className='flip-box animate-fade-left'>
-              <div className="flip-box-inner ">
-                <div className='flip-box-front  bg-gray-100  rounded-lg shadow-lg text-gray-800'> */}
-                  <div className='flex flex-col justify-center items-center'>
-                  <div className='flex text-xl font-semibold items-center justify-center p-2 '>
-                  <img src="src\assets\o1.png" alt="Description" className="w-auto h-auto md:w-auto md:h-auto   " />
-                    </div>
-                  <img src="src\assets\—Pngtree—vector star icon_4231909.png" className='w-[40%]' alt="" />{/*Use symbol related to the section*/}
-                  {/* </div> */}
-                </div>
-                {/* <div className='flip-box-back bg-[#00bf63] flex flex-col items-center gap-5 md:gap-10 rounded-lg shadow-lg text-white'>
-                  <h3 className="text-4xl md:text-6xl font-bold pt-3">CAPEX</h3>
-                  <div>
-                    <ul className=" md:text-xl flex list-disc flex-col md:gap-3 items-start">
-                        <li>
-                            Complete owner ship of the solar plant
-                        </li>
-                        <li>
-                            accelerated Depreciation Benifits
-                        </li>
-                        <li>
-                            Input GST Credit
-                        </li>
-                        <li>
-                            4-5 year payback, High IRR and returns
-                        </li>
-                        <li>Plat Monitoring and Analytics</li>
-                    </ul>
-                  </div>
-                </div> */}
-              {/* </div>
-            </div> */}
-            {/* <div  className='flip-box animate-fade-right'>
-              <div className="flip-box-inner ">
-                <div className='flip-box-front  bg-gray-100  rounded-lg shadow-lg text-gray-800'> */}
-                  <div className='flex flex-col justify-center items-center'>
-                  <div className='flex text-xl font-semibold items-center justify-center p-2'>
-                  <img src="src\assets\o2.png" alt="Description" className="w-auto h-auto md:w-auto md:h-auto  " />
-                    </div>
-                  <img src="src\assets\—Pngtree—vector star icon_4231909.png" className='w-[40%]' alt="" />{/*Use symbol related to the section*/}
-                  {/* </div> */}
-                </div>
-                <div className='flip-box-back bg-[#00bf63] flex flex-col items-center gap-5 md:gap-10 rounded-lg shadow-lg text-white'>
-                  <h3 className="text-4xl md:text-6xl font-bold pt-3">CAPEX</h3>
-                  <div>
-                    <ul className=" md:text-xl flex list-disc flex-col md:gap-3 items-start">
-                        <li>
-                            AVCO owns the solar plant
-                        </li>
-                        <li>
-                            Zero investment required
-                        </li>
-                        <li>
-                            Yearly savingd
-                        </li>
-                        <li>
-                            Zero O&M
-                        </li>
-                        <li>PPA Agreement with AVCO</li>
-                    </ul>
-                  </div>
-                {/* </div>
-              </div> */}
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 px-6">
+          {/* First Image */}
+          <div className="flex flex-col justify-center items-center">
+            <div className="flex text-xl font-semibold items-center justify-center p-2">
+              <img
+                src="src/assets/o1.png"
+                alt="Description"
+                className="w-auto h-auto md:w-auto md:h-auto"
+              />
             </div>
+            <img
+              src="src/assets/—Pngtree—vector star icon_4231909.png"
+              className="w-[40%]"
+              alt=""
+            />
+          </div>
+
+          {/* Line Between Images */}
+          <div className="h-96 w-0.5 bg-gray-400 mx-4 hidden md:block"></div>
+
+          {/* Second Image */}
+          <div className="flex flex-col justify-center items-center">
+            <div className="flex text-xl font-semibold items-center justify-center p-2">
+              <img
+                src="src/assets/o2.png"
+                alt="Description"
+                className="w-auto h-auto md:w-auto md:h-auto"
+              />
+            </div>
+            <img
+              src="src/assets/—Pngtree—vector star icon_4231909.png"
+              className="w-[40%]"
+              alt=""
+            />
+          </div>
         </div>
-        </div>
-      
+      </div>
     </section>
   );
 };

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import map from "../../assets/image.png";
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -36,7 +35,7 @@ const Form = () => {
     `;
 
     // Encode the email body for the mailto link
-    const mailtoLink = `mailto:dharshadwarak6300@gmail.com?subject=New Contact Form Submission&body=${encodeURIComponent(
+    const mailtoLink = `mailto:contact@enviraenergies.com?subject=New Contact Form Submission&body=${encodeURIComponent(
       emailBody
     )}`;
 
@@ -50,16 +49,14 @@ const Form = () => {
       <div className="text-white">
         <div className="bg-[#00bf63] py-8 mx-auto flex justify-center gap-20 leading-10 text-center w-[50rem] items-center">
           <div>
-            <h3 className="font-semibold text-lg">CORPORATE HQ</h3>
-            <p>2/5, Sarat Bose Road, SukhSagar,</p>
-            <p>Building - 2, Floor - 2</p>
-            <p>Kolkata 700 020</p>
+            <h3 className="font-semibold text-lg">Address</h3>
+            <p>The Capital, G-Block, BKC, </p>
+            <p>Mumbai, 400103</p>
           </div>
           <div>
             <h3 className="font-semibold text-lg">CONTACT US</h3>
-            <p>Email: info@avcoenergy.in</p>
-            <p>Telephone: 033 2475 0337</p>
-            <p>Mobile: +91 9830011400</p>
+            <p>Email: contact@enviraenergies.com</p>
+            <p>Mobile: +91 9136811775</p>
           </div>
         </div>
       </div>
@@ -175,8 +172,18 @@ const Form = () => {
         </form>
       </div>
 
-      {/* Map Image */}
-      <img src={map} alt="" className="w-full" />
+      {/* Google Maps Embed */}
+      <div className="w-full">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.715981042148!2d72.861825!3d19.0632869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8e63255a32f%3A0xb36949f4649e6f15!2sThe%20Capital!5e0!3m2!1sen!2sin!4v1698765432100!5m2!1sen!2sin"
+          width="100%"
+          height="250"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </section>
   );
 };

@@ -22,21 +22,21 @@ const Footer2 = () => {
                 {/* Logo & Social Links */}
                 <div className="flex flex-col items-center">
                   <Link to="/" className="cursor-pointer">
-                    <img src={Logo} alt="AVCO Energy Logo" className="w-52 border rounded-lg" />
+                    <img src={Logo} alt="AVCO Energy Logo" className="w-52 " />
                   </Link>
                   <div className="flex space-x-4 mt-4">
                     {/* Facebook Icon */}
-                    <a
+                    {/* <a
                       href="https://facebook.com"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-gray-300"
                     >
                       <FontAwesomeIcon icon={faFacebook} size="lg" />
-                    </a>
+                    </a> */}
                     {/* LinkedIn Icon */}
                     <a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/company/enviraenergies/?viewAsMember=true"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-gray-300"
@@ -45,7 +45,7 @@ const Footer2 = () => {
                     </a>
                     {/* Instagram Icon */}
                     <a
-                      href="https://instagram.com"
+                      href="https://www.instagram.com/enviraenergies?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-gray-300"
@@ -103,14 +103,16 @@ const Footer2 = () => {
                 <div>
                   <h4 className="text-lg font-semibold mb-4">CONTACT US</h4>
                   <ul className="space-y-2">
-                    <li>033 2475 0337</li>
+                    <li>+91 9136811775
+                    </li>
                     <li>
                       <a href="mailto:info@avcoenergy.in" className="hover:text-gray-300">
-                        info@avcoenergy.in
+                      contact@enviraenergies.com
+
                       </a>
                     </li>
-                    <li>2/5, Sarad Bose Road, Kolkata 700 020</li>
-                    <li>39, JSS Road, Kennedy Bridge, Opera House, Mumbai 400 004</li>
+                    <li>
+                    The Capital, G-Block, BKC, Mumbai, 400103</li>
                   </ul>
                 </div>
               </div>
