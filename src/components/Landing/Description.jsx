@@ -1,6 +1,8 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 
-const Description = () => {
+const Description = () => {  const navigate = useNavigate();
+
   return (
     <section id="next-section" className="bg-white py-16">
       <div className="container mx-auto text-center px-6">
@@ -17,7 +19,7 @@ const Description = () => {
         Envira Energies is a leading provider of distributed solar solutions in India, offering end-to-end services from project design to operation and maintenance. With flexible financing options like CAPEX and RESCO, we help businesses reduce energy costs while advancing sustainability. Our reliable, innovative solutions empower a cleaner and more energy-efficient future.        </p>
 
         {/* Button */}
-        <button className="mt-8 px-8 py-3 border-2 border-[#00bf63] text-[#00bf63] hover:bg-[#00bf63] hover:text-white font-semibold rounded-lg transition duration-300 opacity-0 animate-fade-down">
+        <button onClick={() => navigate("/contact")} className="mt-8 px-8 py-3 border-2 border-[#00bf63] text-[#00bf63] hover:bg-[#00bf63] hover:text-white font-semibold rounded-lg transition duration-300 opacity-0 animate-fade-down">
           TALK TO US
         </button>
       </div>
