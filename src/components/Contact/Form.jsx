@@ -146,7 +146,7 @@ const Form = () => {
               className="border-b-2 focus:outline-none focus:border-[#00bf63] p-2"
               required
             >
-              <option value="">Solar Rooftop</option>
+              <option value="Solar Rooftop">Solar Rooftop</option>
               <option value="Solar Carport">Solar Carport</option>
               <option value="Floating Solar">Floating Solar</option>
             </select>
